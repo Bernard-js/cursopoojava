@@ -1,6 +1,6 @@
-package aula10;
+package aula11;
 
-public class Pessoa {
+public abstract class Pessoa {
     private String nome;
     private int idade;
     private char sexo;
@@ -40,7 +40,7 @@ public class Pessoa {
         this.sexo = sexo;
     }
     
-    public void fazerAniv(){
+    public final void fazerAniv(){
         this.idade++;
     }
 }
